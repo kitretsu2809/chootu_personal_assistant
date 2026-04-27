@@ -19,9 +19,9 @@ import tkinter.font as tkfont
 from pynput import keyboard as pynput_keyboard
 
 
-HOME_DIR = "/home/kitretsu"
-OPENCLAW_BIN = f"{HOME_DIR}/.nvm/versions/node/v24.14.0/bin/openclaw"
-OPENCLAW_PATH = f"{HOME_DIR}/.nvm/versions/node/v24.14.0/bin"
+HOME_DIR = os.environ.get("HOME", os.path.expanduser("~"))
+OPENCLAW_BIN = os.environ.get("OPENCLAW_BIN", f"{HOME_DIR}/.nvm/versions/node/v24.14.0/bin/openclaw")
+OPENCLAW_PATH = os.path.dirname(OPENCLAW_BIN)
 
 WAKE_RE = re.compile(r"\b(?:chhotu|chotu)\b", re.IGNORECASE)
 WAKE_ONLY_RE = re.compile(r"^\s*(?:chhotu|chotu)\s*$", re.IGNORECASE)
