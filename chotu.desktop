@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=Chotu
+Comment=Voice and text assistant
+Exec=/home/kitretsu/Desktop/PROJECTS/PERSONAL/ASSISTANT/run_chotu.sh
+Terminal=false
+X-GNOME-Autostart-enabled=true
+StartupNotify=false
