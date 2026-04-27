@@ -23,8 +23,8 @@ HOME_DIR = "/home/kitretsu"
 OPENCLAW_BIN = f"{HOME_DIR}/.nvm/versions/node/v24.14.0/bin/openclaw"
 OPENCLAW_PATH = f"{HOME_DIR}/.nvm/versions/node/v24.14.0/bin"
 
-WAKE_RE = re.compile(r"\b(?:chhotu|chotu|chodu)\b", re.IGNORECASE)
-WAKE_ONLY_RE = re.compile(r"^\s*(?:chhotu|chotu|chodu)\s*$", re.IGNORECASE)
+WAKE_RE = re.compile(r"\b(?:chhotu|chotu)\b", re.IGNORECASE)
+WAKE_ONLY_RE = re.compile(r"^\s*(?:chhotu|chotu)\s*$", re.IGNORECASE)
 
 
 class PopupWin:

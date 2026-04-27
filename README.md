@@ -1,6 +1,6 @@
 # Chotu Voice Assistant
 
-A voice assistant that listens for wake words ("chhotu", "chotu", "chodu") and executes commands via OpenCLAW.
+A voice assistant that listens for wake words ("chhotu", "chotu") and executes commands via OpenCLAW.
 
 ## Features
 
@@ -41,5 +41,5 @@ python voice_assistant.py
 
 ## Usage
 
-- Say "chhotu", "chotu", or "chodu" followed by your command
+- Say "chhotu" or "chotu" followed by your command
 - Or hold Alt key for 1+ seconds to invoke typing mode
