@@ -1,5 +1,7 @@
 # Chotu Voice Assistant
 
+![Demo](demo.png)
+
 A voice assistant that listens for wake words ("chhotu", "chotu") and executes commands via OpenCLAW.
 
 ## Features
